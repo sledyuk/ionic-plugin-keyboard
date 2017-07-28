@@ -12,7 +12,10 @@
     ]
   },
   "description": "Ionic Keyboard Plugin",
-  "repository": "https://github.com/driftyco/ionic-plugin-keyboard.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftyco/ionic-plugin-keyboard.git"
+  },
   "issue": "https://github.com/driftyco/ionic-plugin-keyboard/issues",
   "keywords": [
     "ionic",
@@ -26,5 +29,13 @@
     "cordova-windows"
   ],
   "author": "Ionic",
-  "license": "Apache 2.0"
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/driftyco/ionic-plugin-keyboard/issues"
+  },
+  "homepage": "https://github.com/driftyco/ionic-plugin-keyboard#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
